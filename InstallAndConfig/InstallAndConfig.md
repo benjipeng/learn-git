@@ -18,11 +18,12 @@ Make sure check the following:
 You can run PowerShell:
 <img src="./src/FindPowerShell.png" width="300"> <br>
 **NOTE:** `$env:ProgramFiles\PowerShell\7` as `PATH` after installation
+
 ### Install Git
 Download the proper version from [This Link](https://git-scm.com)
 and install.
 You can uncheck the following to make the Windows Explorer menu cleaner.
-<img src="./src/InstallGIT.png" width="500">
+<img src="./src/InstallGIT.png" width="500"> 
 
 ### Install VSCode
 make sure a checkbox looks like `add code to $PATH` is checked during installation.
@@ -53,7 +54,7 @@ Set-Theme Agnoster
 [Nerd Fonts](https://www.nerdfonts.com) are iconic fonts for developers, download your favorite font and use it in PowerShell....<br>
 And [Check This](https://github.com/joonro/Get-ChildItemColor) to have your `ls` command has colorful returns.<br>
 In the end, with some other tweakings, your PowerShell could look like
-<img src="./src/final-terminal.png" width="650"/>
+<img src="./src/final-terminal.png" width="650">
 
 ## Mac User
 ### Getting Ready
@@ -64,5 +65,3 @@ In the end, with some other tweakings, your PowerShell could look like
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 Done
-
-
