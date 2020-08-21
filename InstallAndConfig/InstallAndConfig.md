@@ -58,10 +58,21 @@ In the end, with some other tweakings, your PowerShell could look like
 
 ## Mac User
 ### Getting Ready
+First things first, download and install `Visual Studio Code` <br>
+Vist [HomeBrew](https://brew.sh) and install `HomeBrew`. `HomeBrew` is a package manager in MacOS.<br>
+During installation, you may see a prompt ask you to install an update, likely Xcode Command Line Tools.<br>
+<img src="./src/OSXupdate.png" width="400">
 
 ### Configure your Oh My Zsh
-[Oh My Zsh](https://ohmyz.sh) is an open source, community-driven framework for managing your Z-Shell (default since `MacOS Catalina`) configuration.
+1. The default terminal looks very boring. <br>
+<img src="./src/OSXDefault.png" width="550"> <br>
+[Oh My Zsh](https://ohmyz.sh) is an open source, community-driven framework for managing your Z-Shell (default since `MacOS Catalina`) configuration. Run the following in terminal to install `Oh My Zsh`
 ```Bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-Done
+2. In **VSCode** use `Shift + Command + P` to open up the `Command Palette`. Search and click `Shell Command: Install 'code' command in PATH`. After starting a new terminal window, you can run VSCode in your terminal via `code` command.
+3. You can change stylings of your terminal in its `Prefernces`. You can use [Nerd Font](https://www.nerdfonts.com/font-downloads).
+
+Congratulations, you are ready!
+
+
