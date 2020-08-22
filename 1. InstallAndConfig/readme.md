@@ -13,9 +13,9 @@
 Search `PowerShell 7.0` or go to  [its Github releases](https://github.com/PowerShell/PowerShell/releases). Locate the most suitable version under <span style="color:green; font-weight:bold">Latest release</span> tag. likely the <span style="color:steelblue; font-weight:bold">arm64</span> version. <br>
 Follow the instuctions. <br>
 <img src="./src/InstallPowerShell.PNG" width="500"> <br>
-Make sure check the following:
+Make sure check the following: <br>
 <img src="./src/InstallPSSetting.PNG" width="500"> <br>
-You can run PowerShell:
+You can run PowerShell: <br>
 <img src="./src/FindPowerShell.png" width="300"> <br>
 **NOTE:** `$env:ProgramFiles\PowerShell\7` as `PATH` after installation
 
@@ -53,7 +53,7 @@ Set-Theme Agnoster
 ### Use NerdFonts
 [Nerd Fonts](https://www.nerdfonts.com) are iconic fonts for developers, download your favorite font and use it in PowerShell....<br>
 And [Check This](https://github.com/joonro/Get-ChildItemColor) to have your `ls` command has colorful returns.<br>
-In the end, with some other tweakings, your PowerShell could look like
+In the end, with some other tweakings, your PowerShell could look like<br>
 <img src="./src/final-terminal.png" width="650">
 
 ## Mac User
